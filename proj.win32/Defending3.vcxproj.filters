@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\杜若衡">
+      <UniqueIdentifier>{e7417592-347e-46f7-8942-fdf7574bef54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\谢驰">
+      <UniqueIdentifier>{35a5f63d-19a3-4d29-ac92-f61bf0bf8b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\New">
+      <UniqueIdentifier>{2403b20a-b740-43c1-b443-32aaafd54789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\Button">
+      <UniqueIdentifier>{34c219e8-be44-4f3f-9065-291529ee495b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="xiechi\Entity.cpp">
+      <Filter>src\谢驰</Filter>
+    </ClCompile>
+    <ClCompile Include="xiechi\Monster.cpp">
+      <Filter>src\谢驰</Filter>
+    </ClCompile>
+    <ClCompile Include="xiechi\MonsterManager.cpp">
+      <Filter>src\谢驰</Filter>
+    </ClCompile>
+    <ClCompile Include="xiechi\TollgateScene.cpp">
+      <Filter>src\谢驰</Filter>
+    </ClCompile>
+    <ClCompile Include="xiechi\Tower.cpp">
+      <Filter>src\谢驰</Filter>
+    </ClCompile>
+    <ClCompile Include="xiechi\Bullet.cpp">
+      <Filter>src\谢驰</Filter>
+    </ClCompile>
+    <ClCompile Include="xiechi\BulletManager.cpp">
+      <Filter>src\谢驰</Filter>
+    </ClCompile>
+    <ClCompile Include="xiechi\PauseScene.cpp">
+      <Filter>src\谢驰</Filter>
+    </ClCompile>
+    <ClCompile Include="xiechi\StartScene.cpp">
+      <Filter>src\谢驰</Filter>
+    </ClCompile>
+    <ClCompile Include="xiechi\EndScene.cpp">
+      <Filter>src\谢驰</Filter>
+    </ClCompile>
+    <ClCompile Include="xiechi\Skill.cpp">
+      <Filter>src\谢驰</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="xiechi\Entity.h">
+      <Filter>src\谢驰</Filter>
+    </ClInclude>
+    <ClInclude Include="xiechi\Monster.h">
+      <Filter>src\谢驰</Filter>
+    </ClInclude>
+    <ClInclude Include="xiechi\MonsterManager.h">
+      <Filter>src\谢驰</Filter>
+    </ClInclude>
+    <ClInclude Include="xiechi\TollgateScene.h">
+      <Filter>src\谢驰</Filter>
+    </ClInclude>
+    <ClInclude Include="xiechi\Tower.h">
+      <Filter>src\谢驰</Filter>
+    </ClInclude>
+    <ClInclude Include="xiechi\Bullet.h">
+      <Filter>src\谢驰</Filter>
+    </ClInclude>
+    <ClInclude Include="xiechi\BulletManager.h">
+      <Filter>src\谢驰</Filter>
+    </ClInclude>
+    <ClInclude Include="xiechi\PauseScene.h">
+      <Filter>src\谢驰</Filter>
+    </ClInclude>
+    <ClInclude Include="xiechi\StartScene.h">
+      <Filter>src\谢驰</Filter>
+    </ClInclude>
+    <ClInclude Include="xiechi\EndScene.h">
+      <Filter>src\谢驰</Filter>
+    </ClInclude>
+    <ClInclude Include="xiechi\Skill.h">
+      <Filter>src\谢驰</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\res\bug.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\res\pow1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\res\wei.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\res\bullet.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\..\..\图片素材\background1.jpg">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\res\menu.png">
+      <Filter>resource\Button</Filter>
+    </Image>
+    <Image Include="..\Resources\res\pause.png">
+      <Filter>resource\Button</Filter>
+    </Image>
+    <Image Include="..\Resources\res\question.png">
+      <Filter>resource\Button</Filter>
+    </Image>
+    <Image Include="..\Resources\res\restart.png">
+      <Filter>resource\Button</Filter>
+    </Image>
+    <Image Include="..\Resources\res\start.png">
+      <Filter>resource\Button</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Resources\res\shoot.mp3">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="..\Resources\res\throw.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="..\Resources\res\hit.wav">
+      <Filter>resource</Filter>
+    </Media>
+    <Media Include="..\Resources\res\hit2.mp3">
+      <Filter>resource</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
